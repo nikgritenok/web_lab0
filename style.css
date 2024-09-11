@@ -42,7 +42,6 @@ header {
 .navbar {
     display: flex;
     font-family: roboto;
-    margin: 100px;
 }
 
 .block-link{
@@ -51,6 +50,7 @@ header {
 
 .block-link ul{
     display: flex;
+    padding: 10px;
 }
 
 .block-link li{
@@ -60,8 +60,3 @@ header {
 .block-link a{
     text-decoration: none;
 }
-
-.block-img {
-
-}
-
