@@ -1,0 +1,61 @@
+.features {
+  &__wrap {
+    padding: 107px 0;
+    display: flex;
+    justify-content: space-between;
+
+    .features__item {
+      display: flex;
+      width: 100%;
+
+      &-img {
+        width: 46.5%;
+      }
+
+      &-content {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 580px;
+        line-height: 1.8;
+        color: #434343;
+        font-family: "Roboto";
+
+        &-title {
+          text-transform: uppercase;
+          font-size: 18px;
+          font-weight: 700;
+          color: #8a53ff;
+          margin-bottom: 8px;
+        }
+
+        &-description {
+          font-family: "Changa One";
+          font-size: 39px;
+          margin-bottom: 8px;
+        }
+
+        &-text {
+          display: flex;
+          align-items: center;
+          margin-top: 24px;
+          color: #8a53ff;
+          font-family: "Roboto";
+
+          svg {
+            margin-right: 12px;
+
+            ellipse {
+              fill-opacity: 1;
+            }
+
+            path {
+              fill: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
-@import 'reset';
-@import 'variables';
-@import 'fonts';
-@import 'mixins';
-@import 'core';
+@import "reset";
+@import "variables";
+@import "fonts";
+@import "mixins";
+@import "core";
 
-@import 'blocks/intro.scss';
+@import "./pages/index/hero";
+@import "./pages/index/features";
