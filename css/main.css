@@ -620,18 +620,6 @@ body {
   height: 476.11px;
   padding: 0 20px;
 }
-.recent-stories__left__text {
-  max-width: 435.13px;
-  width: 100vw;
-  height: 90px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
 .recent-stories__content {
   max-width: 1200px;
   width: 100vw;
@@ -644,51 +632,6 @@ body {
   max-width: 600px;
   width: 100vw;
   height: 476px;
-}
-.recent-stories__content__right .story-card {
-  max-width: 600px;
-  width: 100vw;
-  height: 148px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.recent-stories__content__right .story-card__image {
-  width: 240px;
-}
-.recent-stories__content__right .story-card__text {
-  max-width: 358px;
-  width: 100vw;
-  height: 128px;
-  margin-left: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-.recent-stories__content__right .story-card__text__location {
-  font-size: 24px;
-  line-height: 36px;
-  font-weight: 400;
-  font-family: "Changa One";
-  color: rgb(67, 67, 67);
-}
-.recent-stories__content__right .story-card__text__description {
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 400;
-  font-family: "Roboto";
-  color: rgb(87, 96, 116);
-}
-.recent-stories__content__right .story-card__text__description .story-card__link {
-  color: rgb(138, 83, 255);
-  text-decoration: none;
-}
-.recent-stories__content__right .story-card__text__description .story-card__link:hover {
-  text-decoration: underline;
 }
 
 .story-card__items {
@@ -704,6 +647,19 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.story-card__text {
+  max-width: 435.13px;
+  width: 100vw;
+  margin-left: 20px;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .story-card--big {
   max-width: 560px;
@@ -726,19 +682,39 @@ body {
   width: 100vw;
   height: 118px;
 }
-.story-card__body__title {
+.story-card__title {
   font-size: 24px;
   line-height: 36px;
   font-weight: 400;
   font-family: "Changa One";
   color: rgb(67, 67, 67);
 }
-.story-card__body__description {
+.story-card__description {
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
   font-family: "Roboto";
   color: rgb(87, 96, 116);
+}
+.story-card__link {
+  color: rgb(138, 83, 255);
+  text-decoration: none;
+}
+.story-card__link:hover {
+  text-decoration: underline;
+}
+.story-card__item {
+  max-width: 600px;
+  width: 100vw;
+  height: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 10px;
 }
 
 .footer {
