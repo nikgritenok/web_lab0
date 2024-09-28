@@ -571,3 +571,229 @@ body {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.recent-stories {
+  height: 748.11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.recent-stories__subtitle {
+  height: 21px;
+  font-size: 18px;
+  line-height: 21.09px;
+  font-weight: 700;
+  font-family: "Roboto";
+  color: rgb(138, 83, 255);
+  text-transform: uppercase;
+}
+.recent-stories__title {
+  height: 40px;
+  font-size: 39px;
+  line-height: 40px;
+  font-weight: 400;
+  font-family: "Changa One";
+  color: rgb(67, 67, 67);
+}
+.recent-stories__titles {
+  max-width: 1200px;
+  width: 100vw;
+  height: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.recent-stories__left {
+  max-width: 600px;
+  width: 100vw;
+  height: 476.11px;
+  padding: 0 20px;
+}
+.recent-stories__left__text {
+  max-width: 435.13px;
+  width: 100vw;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.recent-stories__content {
+  max-width: 1200px;
+  width: 100vw;
+  height: 476.11px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.recent-stories__content__right {
+  max-width: 600px;
+  width: 100vw;
+  height: 476px;
+}
+.recent-stories__content__right .story-card {
+  max-width: 600px;
+  width: 100vw;
+  height: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.recent-stories__content__right .story-card__image {
+  width: 240px;
+}
+.recent-stories__content__right .story-card__text {
+  max-width: 358px;
+  width: 100vw;
+  height: 128px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.recent-stories__content__right .story-card__text__location {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: "Changa One";
+  color: rgb(67, 67, 67);
+}
+.recent-stories__content__right .story-card__text__description {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: rgb(87, 96, 116);
+}
+.recent-stories__content__right .story-card__text__description .story-card__link {
+  color: rgb(138, 83, 255);
+  text-decoration: none;
+}
+.recent-stories__content__right .story-card__text__description .story-card__link:hover {
+  text-decoration: underline;
+}
+
+.story-card__items {
+  max-width: 512px;
+  width: 100vw;
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.story-card--big {
+  max-width: 560px;
+  width: 100vw;
+  height: 476.11px;
+}
+.story-card--big__image--big {
+  width: 560px;
+  height: 358.11px;
+}
+.story-card--big button {
+  width: 48.87px;
+  height: 48px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.story-card__body {
+  max-width: 560px;
+  width: 100vw;
+  height: 118px;
+}
+.story-card__body__title {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  font-family: "Changa One";
+  color: rgb(67, 67, 67);
+}
+.story-card__body__description {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: rgb(87, 96, 116);
+}
+
+.footer {
+  max-width: 1440px;
+  width: 100vw;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer .copyright-info {
+  max-width: 920px;
+  width: 100vw;
+  height: 16px;
+}
+.footer .copyright-info span {
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: rgb(147, 158, 180);
+}
+.footer .footer-links {
+  max-width: 280px;
+  width: 100vw;
+  height: 16px;
+}
+.footer .footer-links ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .footer-links ul li {
+  font-size: 14px;
+  line-height: 16.41px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: rgb(147, 158, 180);
+  list-style-type: none;
+  cursor: pointer;
+}
+.footer .footer-links ul li a {
+  font-size: 14px;
+  line-height: 16.41px;
+  font-family: "Roboto";
+  color: rgb(147, 158, 180);
+  text-decoration: none;
+}

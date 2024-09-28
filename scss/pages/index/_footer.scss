@@ -1,0 +1,52 @@
+.footer {
+  max-width: 1440px;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .copyright-info {
+    max-width: 920px;
+    width: 100vw;
+    height: 16px;
+
+    span {
+      font-size: 14px;
+      line-height: 16.41px;
+      font-weight: 400;
+      font-family: "Roboto";
+      color: rgba(147, 158, 180, 1);
+    }
+  }
+
+  .footer-links {
+    max-width: 280px;
+    width: 100vw;
+    height: 16px;
+
+    ul {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+
+      li {
+        font-size: 14px;
+        line-height: 16.41px;
+        font-weight: 400;
+        font-family: "Roboto";
+        color: rgba(147, 158, 180, 1);
+        list-style-type: none;
+        cursor: pointer;
+
+        a {
+          font-size: 14px;
+          line-height: 16.41px;
+          font-family: "Roboto";
+          color: rgba(147, 158, 180, 1);
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

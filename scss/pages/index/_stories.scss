@@ -1,0 +1,168 @@
+// Переменные для часто используемых цветов и шрифтов
+$primary-color: rgba(138, 83, 255, 1);
+$secondary-color: rgba(67, 67, 67, 1);
+$text-color: rgba(87, 96, 116, 1);
+$font-main: "Roboto";
+$font-title: "Changa One";
+$container-width: 1200px;
+$full-width: 100vw;
+
+.recent-stories {
+  height: 748.11px;
+  display: flex;
+  flex-direction: column;
+
+  &__subtitle {
+    height: 21px;
+    font-size: 18px;
+    line-height: 21.09px;
+    font-weight: 700;
+    font-family: $font-main;
+    color: $primary-color;
+    text-transform: uppercase;
+  }
+
+  &__title {
+    height: 40px;
+    font-size: 39px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: $font-title;
+    color: $secondary-color;
+  }
+
+  &__titles {
+    max-width: $container-width;
+    width: $full-width;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__left {
+    max-width: 600px;
+    width: $full-width;
+    height: 476.11px;
+    padding: 0 20px;
+
+    &__text {
+      max-width: 435.13px;
+      width: $full-width;
+      height: 90px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__content {
+    max-width: $container-width;
+    width: $full-width;
+    height: 476.11px;
+    display: flex;
+
+    &__right {
+      max-width: 600px;
+      width: $full-width;
+      height: 476px;
+
+      .story-card {
+        max-width: 600px;
+        width: $full-width;
+        height: 148px;
+        display: flex;
+
+        &__image {
+          width: 240px; // Ширина картинки на правой стороне
+        }
+
+        &__text {
+          max-width: 358px;
+          width: $full-width;
+          height: 128px;
+          margin-left: 20px;
+          display: flex;
+          flex-direction: column;
+
+          &__location {
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 400;
+            font-family: $font-title;
+            color: $secondary-color;
+          }
+
+          &__description {
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            font-family: $font-main;
+            color: $text-color;
+
+            .story-card__link {
+              color: $primary-color;
+              text-decoration: none;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.story-card {
+  &__items {
+    max-width: 512px;
+    width: $full-width;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &--big {
+    max-width: 560px;
+    width: $full-width;
+    height: 476.11px;
+
+    &__image {
+      &--big {
+        width: 560px;
+        height: 358.11px;
+      }
+    }
+
+    button {
+      width: 48.87px;
+      height: 48px;
+      border: none;
+      background: none;
+      cursor: pointer;
+    }
+  }
+
+  &__body {
+    max-width: 560px;
+    width: $full-width;
+    height: 118px;
+
+    &__title {
+      font-size: 24px;
+      line-height: 36px;
+      font-weight: 400;
+      font-family: $font-title;
+      color: $secondary-color;
+    }
+
+    &__description {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 400;
+      font-family: $font-main;
+      color: $text-color;
+    }
+  }
+}
