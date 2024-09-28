@@ -421,3 +421,153 @@ body {
   font-family: "Roboto";
   color: rgb(138, 83, 255);
 }
+
+.registration-section__background {
+  height: 901.18px;
+  width: 100vw;
+  background: url(../../../assets/img/user-form_background-image.svg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.registration-section .registration {
+  width: 657px;
+  height: 758px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.registration-section .registration__header {
+  max-width: 617px;
+  width: 100vw;
+  height: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.registration-section .registration__title {
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 40px;
+  font-family: "Changa One";
+  color: rgb(67, 67, 67);
+}
+.registration-section .registration__subtext {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.09px;
+  font-family: "Roboto";
+  color: rgb(138, 83, 255);
+  text-transform: uppercase;
+}
+.registration-section .registration__form {
+  max-width: 617px;
+  width: 100vw;
+  height: 612px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+}
+.registration-section .registration__text {
+  max-width: 557px;
+  width: 100vw;
+  height: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.registration-section .registration__travels {
+  height: 36px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: "Changa One";
+  color: rgb(67, 67, 67);
+}
+.registration-section .registration__about-travels {
+  height: 68px;
+  font-size: 18px;
+  line-height: 34px;
+  font-weight: 400;
+  font-family: "Roboto";
+  color: rgb(67, 67, 67);
+}
+.registration-section .registration__fields {
+  max-width: 557px;
+  width: 100vw;
+  height: 366px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.registration-section .registration__fields input {
+  max-width: 557px;
+  width: 100vw;
+  height: 56px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  padding-left: 12px;
+  font-family: "Roboto";
+}
+.registration-section .registration__fields input--description {
+  height: 102px;
+}
+.registration-section .registration__button {
+  width: 222px;
+  height: 46px;
+  font-size: 16px;
+  line-height: 18.75px;
+  font-weight: 400;
+  font-family: "Roboto";
+  background-color: rgb(138, 83, 255);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

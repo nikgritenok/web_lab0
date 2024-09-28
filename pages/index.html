@@ -139,5 +139,68 @@
         </div>
       </div>
     </section>
+
+    <!-- Пятая секция - user form -->
+    <section class="registration-section">
+      <div class="registration-section__background">
+        <div class="registration">
+          <div class="registration__header">
+            <span class="registration__subtext">Let’s build a community</span>
+            <span class="registration__title">Join our next destination</span>
+          </div>
+          <form class="registration__form">
+            <div class="registration__text">
+              <span class="registration__travels">Share your travels</span>
+              <span class="registration__about-travels">
+                Suggest a new travel destination that you want to see and we
+                will feature it in our blog.
+              </span>
+            </div>
+            <div class="registration__fields">
+              <input
+                class="registration__input"
+                type="text"
+                placeholder="Destination name"
+              />
+              <input
+                class="registration__input"
+                list="dest-country"
+                type="text"
+                name="dest-country"
+                placeholder="Country of Destination"
+              />
+              <datalist id="dest-country">
+                <option value="Russia"></option>
+                <option value="Italy"></option>
+                <option value="Turkey"></option>
+              </datalist>
+              <input
+                class="registration__input"
+                type="text"
+                placeholder="Your name"
+              />
+              <input
+                class="registration__input"
+                list="category"
+                type="text"
+                name="category"
+                placeholder="Shooting category"
+              />
+              <datalist id="category">
+                <option value="Reportage"></option>
+                <option value="Architectural photography"></option>
+                <option value="Landscape"></option>
+              </datalist>
+              <input
+                class="registration__input registration__input--description"
+                type="text"
+                placeholder="Describe what kind of photos you want to focus on"
+              />
+            </div>
+            <button class="registration__button" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
