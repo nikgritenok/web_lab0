@@ -1,6 +1,6 @@
 .hero {
   &__wrap {
-    background: url("/assets/img/hero_background_image.png") no-repeat center;
+    background: url("../assets/img/hero_background_image.png") no-repeat center;
     background-size: cover;
     position: relative;
     &:after {
