@@ -14,17 +14,17 @@
 
   &__menu {
     display: flex;
-    position: relative; // Убедитесь, что этот стиль применяется
+    position: relative;
 
     &::after {
-      content: ""; // Псевдоэлемент без содержимого
+      content: "";
       position: absolute;
-      right: 80px; // Позиционирование полоски
-      top: 50%; // Центрируем по вертикали
-      transform: translateY(-50%); // Выравниваем по центру
-      width: 1px; // Ширина полоски
-      height: 23px; // Высота полоски
-      background-color: #eeeeee; // Цвет полоски
+      right: 80px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1px;
+      height: 23px;
+      background-color: #eeeeee;
     }
 
     &-list {
@@ -52,7 +52,7 @@
           font-family: "Roboto";
 
           &.active {
-            color: #8a53ff !important; // Используйте только если это необходимо
+            color: #8a53ff !important;
           }
         }
       }
